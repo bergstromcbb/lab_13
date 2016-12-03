@@ -8,10 +8,14 @@
 </head>
 <body ng-controller="sixyearController">
     <div>
+        <span>
+        
+        </span>
+        <section id="header">
         <h1>
         Let's Play with Words <br> and Decorations
         </h1>
-
+        
             <button ng-click="addWords()">Words</button>
             <button ng-click="addWordsDec()">Words with Decoration</button>
             <button ng-click="addMoreWords()">More Words</button>
@@ -24,6 +28,8 @@
                 <li ng-repeat="word in newWords" class="ng-class : {{word.deco}}">{{word.stuffing}}</li>
             </ul>
         </div>
+        </section>
+
         <script src="lib/angular.min.js"></script>
         <script src="lab_13_script.js"></script>
     </body>

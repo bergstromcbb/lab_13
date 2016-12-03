@@ -3,42 +3,58 @@ div {
 	text-align: center;
 	width: 60%;
 	margin: auto;
-	border-style: dotted;
-	border-width: 1vw;
-	border-color: darkmagenta;
-	border-radius: 6px;
+	/*border-style: dotted;*/
+	/*border-width: 1vw;*/
+	/*border-color: darkmagenta;*/
+	/*border-radius: 6px;*/
+}
+
+.blueGraphicHeader {
+	width: 85%;
+	/*box-shadow: -1px -1px 8px white, 1px -1px 8px white, -1px 1px 8px white, 1px 1px 8px white;*/
+}
+
+li {
+	display: inline-block;
+	list-style: none;
+	line-height: 4vw;
+	margin: 2px;
+	padding: 4px;
 }
 
 body {
 	margin: 0px;
+	background-image: url("images/bluesquare.png");
+    background-color: white;
+    background-size: cover;
 }
 
-li {
-	list-style: none;
-	line-height: 4vw;
-	padding: 10px;
-}
-
-ul {
-	padding: 0px;
+#header {
+	border-color: white;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-width: 10px 4px;
+  	border-radius: 10px 40px;
+  	padding: 2vw;
+  	margin: 3vw;
+  	margin-top: 6vw;
 }
 
 h1 {
-	background-color: mistyrose;
+	/*background-color: mistyrose;*/
 	margin: 0px;
 }
 
 .one {
 	color: hotpink;
-	background-color: cornsilk;
+	background-color: #e1fdd7;
 	text-decoration: underline;
 	font-family: 'Ravi Prakash', cursive;
 
 }
 
 .two {
-	background-color: lemonchiffon;
-	color: green;
+	background-color: #473198;
+	color: white;
 	text-decoration: overline;
 	font-family: 'Delius Unicase', cursive;
 
@@ -70,7 +86,7 @@ h1 {
 
 .six {
 	color: teal;
-	background-color: lightblue;
+	background-color: lightpink;
 	font-family: 'Indie Flower', cursive;
 
 
@@ -85,7 +101,7 @@ h1 {
 
 .eight {
 	color: yellowgreen;
-	background-color: deeppink;
+	background-color: #daffed;
 	text-decoration: underline;
 	font-family: 'Gloria Hallelujah', cursive;
 
@@ -93,7 +109,7 @@ h1 {
 
 .nine {
 	color: orchid;
-	background-color: thistle;
+	background-color: mistyrose;
 	text-decoration: overline;
 	font-family: 'Pacifico', cursive;
 
@@ -101,7 +117,7 @@ h1 {
 
 .ten {
 	color: salmon;
-	background-color: darkseagreen;
+	background-color: #9bf3f0;
 	text-decoration: line-through;
 	font-family: 'Shadows Into Light', cursive;
 

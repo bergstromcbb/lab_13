@@ -2,9 +2,9 @@
 
 	app.controller('sixyearController', function($scope){
 
-		words = ['Detroit', 'Chicago', 'Paris', 'London', 'Athens', 'Atlanta', 'Berlin', 'Miami', 'Cairo', 'Tokyo'];
-		wordsDec = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-		moreWords = ['Belle Isle', 'Navy Pier', 'Eiffel Tower', 'London Bridge', 'The Parthenon', 'Great Pyramids', 'London Eye', 'South Beach', 'Berlin Wall', 'Tokyo Imperial Palace'];
+	var	words = ['Detroit', 'Chicago', 'Paris', 'London', 'Athens', 'Atlanta', 'Berlin', 'Miami', 'Cairo', 'Tokyo'];
+	var	wordsDec = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+	var	moreWords = ['Belle Isle', 'Navy Pier', 'Eiffel Tower', 'London Bridge', 'The Parthenon', 'Great Pyramids', 'London Eye', 'South Beach', 'Berlin Wall', 'Tokyo Imperial Palace'];
 		// $scope.moreWordsDec = ['six', 'seven', 'eight', 'nine', 'ten'];
 		$scope.newWords = [];
 
